@@ -1,0 +1,99 @@
+html {
+  font-size: 62.5%;
+}
+
+.rateCard,
+.resultCard {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 3rem;
+}
+
+.rateCard {
+  padding: 3.2rem;
+  align-items: flex-start;
+  flex-basis: min-content;
+}
+
+.resultCard {
+  max-width: 37rem;
+  padding: 3.5rem 3.2rem 4rem 3.2rem;
+  align-items: center;
+}
+
+.resultCard p {
+  text-align: center;
+}
+
+.resultCard span {
+  background: #262e38;
+  border-radius: 2.25rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #fc7614;
+  padding: 0.4rem 2rem;
+  margin-top: 3.6rem;
+}
+
+.rateCard img {
+  background: #262e38;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+  margin: 3rem 0 0.7rem 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #969fad;
+}
+
+.buttonsDiv {
+  display: flex;
+  gap: 2.2rem;
+  margin: 2.4rem 0 3rem 0;
+}
+.buttonsDiv button {
+  height: 51px;
+  width: 51px;
+  background-color: #262e38;
+  border-radius: 50%;
+  border: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7c8798;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submitBtn {
+  background: #fc7614;
+  border-radius: 22.5px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.2rem;
+  color: #ffffff;
+  border: none;
+  padding: 1.1rem 0;
+  width: -webkit-fill-available;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
